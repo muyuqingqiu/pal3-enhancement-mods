@@ -244,4 +244,3 @@ int PAL3SceneInput_OpenOriginalMenu(struct UISceneFace *face)
         window, 1009, target->baseclass.m_id, 0);
 }
 #endif
-
