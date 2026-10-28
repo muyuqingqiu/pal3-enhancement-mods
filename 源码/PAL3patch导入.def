@@ -1,0 +1,18 @@
+LIBRARY PAL3patch.dll
+EXPORTS
+    game_frect_43 DATA
+    make_call
+    make_pointer
+    add_gameloop_hook
+    add_grpkbdstate_hook
+    add_prewndproc_hook
+    add_atexit_hook
+    add_preendscene_hook
+    get_showcursor_state
+    set_showcursor_state
+    print_wstring_getfontid
+    print_wstring_begin
+    print_wstring
+    print_wstring_end
+    plugin_log_indent DATA
+    plugin_plog

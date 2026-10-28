@@ -1,0 +1,19 @@
+{
+  "游戏": "Steam 中文版仙剑奇侠传三 V1.04",
+  "补丁": "PAL3patch v5.1",
+  "SDK提交": "f0a2847b1e175c5801021dd8c1704b265f111e12",
+  "原版识别": [
+    {
+      "路径": "PAL3.exe",
+      "SHA256": "aa11c350e7d592df47d527e0db2c09446f3051a0b6dd1614694e74f5278c27d5"
+    },
+    {
+      "路径": "gbengine.dll",
+      "SHA256": "f5d778e15bad25c3421fa71f96d279216349b2c6ca95e150ca233fb602f9490d"
+    },
+    {
+      "路径": "PAL3patch.dll",
+      "SHA256": "242ae1786f99e8c61bf6c8449d91ab5f30e5f81e4d602cdadb8388e26c46c385"
+    }
+  ]
+}
