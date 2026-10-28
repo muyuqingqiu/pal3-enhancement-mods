@@ -128,7 +128,7 @@ def main():
     anchors = json.loads((ROOT/'兼容版本.json').read_text('utf-8'))['原版识别']
     reports = [package(label, args.版本, anchors) for label in dict.fromkeys(args.模组)]
     output = ROOT/'发行产物'/args.版本
-    (output/'文件校验.json').write_text(json.dumps({'构建': info, '附件': reports}, ensure_ascii=False, indent=2), 'utf-8')
+    (output/'BUILD-MANIFEST.json').write_text(json.dumps({'构建': info, '附件': reports}, ensure_ascii=False, indent=2), 'utf-8')
     (output/'SHA256.txt').write_text(''.join(r['SHA256']+'  '+r['文件']+'\n' for r in reports), 'utf-8')
     print('所选 PC 模组构建与打包完成', flush=True)
 
